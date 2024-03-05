@@ -1,0 +1,16 @@
+body {
+    font-size: 14px;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.back{
+    width: 100%;
+    height: auto;
+    background: rgba(255,255,255,1) no-repeat center center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-image: url(image/90544024_01.webp);
+    background-size: cover;
+}
