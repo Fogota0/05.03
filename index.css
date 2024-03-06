@@ -20,9 +20,20 @@ body {
     left: 0;
     width: 100%;
     height: 13%;
-    background-color: rgba(0, 0, 0, 0.6); 
+    background-color: #1D1D1B;
     backdrop-filter: blur(10px); 
 }
+
+  
+  .se {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9) 30%, rgba(0, 0, 0, 0) 50%);
+}
+  
 
 .fontik {
     font-family: Unbounded;
@@ -74,4 +85,42 @@ body {
 
 .osnova2 {
     color: #BD9B60;
+}
+
+  
+
+  input[type="radio"] {
+    position: relative; 
+    top: 226px;
+    left: 170px;
+    transform: scale(1.5); 
+    margin-top: 45px;
+  }
+
+  input[type="radio"] + label {
+
+    font-family: Unbounded;
+    font-size: 14px;
+    font-weight: 200;
+    top: 395px;
+    left: 210px;
+    position: absolute;
+    color: rgba(255,255,255,1);
+  }
+
+.tbutton {
+    position: absolute;
+    background-color: transparent;
+border: 0.16vw solid #BD9B60;
+    color: white;
+    padding: 15px 35px;
+    cursor: pointer;
+    top: 620px;
+    left: 175px;
+    font-family: Unbounded;
+    color: #BD9B60;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 0.40vw;
 }
