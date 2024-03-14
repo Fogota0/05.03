@@ -22,6 +22,7 @@ body {
     height: 13%;
     background-color: #1D1D1B;
     backdrop-filter: blur(10px); 
+opacity: 0.8;
 }
 
   
@@ -64,12 +65,13 @@ body {
     left: 1500px;
     font-family: Unbounded;
     font-weight: 200;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     border-radius: 0.40vw;
 }
 .phone-number {
     font-weight: 400;
+    font-size: 18px;
 }
 
 .osnova {
@@ -91,7 +93,7 @@ body {
 
   input[type="radio"] {
     position: relative; 
-    top: 226px;
+    top: 260px;
     left: 170px;
     transform: scale(1.5); 
     margin-top: 45px;
@@ -102,7 +104,7 @@ body {
     font-family: Unbounded;
     font-size: 14px;
     font-weight: 200;
-    top: 395px;
+    top: 428px;
     left: 210px;
     position: absolute;
     color: rgba(255,255,255,1);
@@ -111,18 +113,18 @@ body {
 .tbutton {
     position: absolute;
     background-color: transparent;
-border: 0.16vw solid #BD9B60;
+border: 0.10vw solid #BD9B60;
     color: white;
-    padding: 15px 35px;
+    padding: 23px 40px;
     cursor: pointer;
     top: 620px;
     left: 175px;
     font-family: Unbounded;
     color: #BD9B60;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 17px;
     text-align: center;
-    border-radius: 0.40vw;
+    border-radius: 0.30vw;
 }
 
 .w {
